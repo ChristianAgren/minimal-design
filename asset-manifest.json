@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/minimal-design/static/css/main.5f361e03.chunk.css",
+    "main.js": "/minimal-design/static/js/main.408f2420.chunk.js",
+    "main.js.map": "/minimal-design/static/js/main.408f2420.chunk.js.map",
+    "runtime-main.js": "/minimal-design/static/js/runtime-main.2de6917a.js",
+    "runtime-main.js.map": "/minimal-design/static/js/runtime-main.2de6917a.js.map",
+    "static/js/2.98b9a364.chunk.js": "/minimal-design/static/js/2.98b9a364.chunk.js",
+    "static/js/2.98b9a364.chunk.js.map": "/minimal-design/static/js/2.98b9a364.chunk.js.map",
+    "index.html": "/minimal-design/index.html",
+    "precache-manifest.d4b6f1a8aeb1f871fb9b8319ea6fc1f5.js": "/minimal-design/precache-manifest.d4b6f1a8aeb1f871fb9b8319ea6fc1f5.js",
+    "service-worker.js": "/minimal-design/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/minimal-design/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.98b9a364.chunk.js.LICENSE.txt": "/minimal-design/static/js/2.98b9a364.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/minimal-design/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2de6917a.js",
+    "static/js/2.98b9a364.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.408f2420.chunk.js"
+  ]
+}
