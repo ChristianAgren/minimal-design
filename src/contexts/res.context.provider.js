@@ -6,7 +6,7 @@ const ResponsiveContextProvider = (props) => {
 
     useLayoutEffect(() => {
         const updateWidth = () => {
-            if (width != window.innerWidth) {
+            if (width !== window.innerWidth) {
                 setWidth(window.innerWidth)
             }
         }

@@ -21,7 +21,8 @@ const HeaderBase = styled.div`
   display: flex;
   justify-content: center;
 
-  background-color: #4a4b58;
+  background-color: rgba(74, 75, 88, .88);
+  backdrop-filter: blur(3px);
 `;
 
 const HeaderWrapper = styled.div`
