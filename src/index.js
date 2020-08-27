@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ThemeContextProvider from './contexts/theme.context.provider';
+import ResponsiveContextProvider from './contexts/res.context.provider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeContextProvider>
+      <ResponsiveContextProvider>
+        <App />
+      </ResponsiveContextProvider>
+    </ThemeContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
