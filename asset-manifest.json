@@ -1,27 +1,32 @@
 {
   "files": {
     "main.css": "/minimal-design/static/css/main.f136f65f.chunk.css",
-    "main.js": "/minimal-design/static/js/main.4fb43d38.chunk.js",
-    "main.js.map": "/minimal-design/static/js/main.4fb43d38.chunk.js.map",
+    "main.js": "/minimal-design/static/js/main.70ddc23c.chunk.js",
+    "main.js.map": "/minimal-design/static/js/main.70ddc23c.chunk.js.map",
     "runtime-main.js": "/minimal-design/static/js/runtime-main.2de6917a.js",
     "runtime-main.js.map": "/minimal-design/static/js/runtime-main.2de6917a.js.map",
-    "static/js/2.4f93186b.chunk.js": "/minimal-design/static/js/2.4f93186b.chunk.js",
-    "static/js/2.4f93186b.chunk.js.map": "/minimal-design/static/js/2.4f93186b.chunk.js.map",
+    "static/js/2.6c09d8ca.chunk.js": "/minimal-design/static/js/2.6c09d8ca.chunk.js",
+    "static/js/2.6c09d8ca.chunk.js.map": "/minimal-design/static/js/2.6c09d8ca.chunk.js.map",
     "index.html": "/minimal-design/index.html",
-    "precache-manifest.08cf2835784a20f53c986adebe3664d6.js": "/minimal-design/precache-manifest.08cf2835784a20f53c986adebe3664d6.js",
+    "precache-manifest.225e2dfd0770bb61219ab8d134654923.js": "/minimal-design/precache-manifest.225e2dfd0770bb61219ab8d134654923.js",
     "service-worker.js": "/minimal-design/service-worker.js",
     "static/css/main.f136f65f.chunk.css.map": "/minimal-design/static/css/main.f136f65f.chunk.css.map",
-    "static/js/2.4f93186b.chunk.js.LICENSE.txt": "/minimal-design/static/js/2.4f93186b.chunk.js.LICENSE.txt",
+    "static/js/2.6c09d8ca.chunk.js.LICENSE.txt": "/minimal-design/static/js/2.6c09d8ca.chunk.js.LICENSE.txt",
     "static/media/Product_img.png": "/minimal-design/static/media/Product_img.83fe993e.png",
     "static/media/big_logo.svg": "/minimal-design/static/media/big_logo.78bc6fe5.svg",
+    "static/media/charles-ingvar.png": "/minimal-design/static/media/charles-ingvar.25db1c4d.png",
+    "static/media/doris.png": "/minimal-design/static/media/doris.abac9f89.png",
     "static/media/footer-background.png": "/minimal-design/static/media/footer-background.78b72f13.png",
+    "static/media/harry.png": "/minimal-design/static/media/harry.0d50d6fd.png",
     "static/media/hero-background.jpg": "/minimal-design/static/media/hero-background.b17c1b9e.jpg",
-    "static/media/logotype_bright.svg": "/minimal-design/static/media/logotype_bright.2eedb889.svg"
+    "static/media/logotype_bright.svg": "/minimal-design/static/media/logotype_bright.2eedb889.svg",
+    "static/media/ragnar.png": "/minimal-design/static/media/ragnar.40a91342.png",
+    "static/media/rocky.png": "/minimal-design/static/media/rocky.8877c297.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2de6917a.js",
-    "static/js/2.4f93186b.chunk.js",
+    "static/js/2.6c09d8ca.chunk.js",
     "static/css/main.f136f65f.chunk.css",
-    "static/js/main.4fb43d38.chunk.js"
+    "static/js/main.70ddc23c.chunk.js"
   ]
 }
