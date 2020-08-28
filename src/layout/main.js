@@ -4,6 +4,7 @@ import { ThemeContext } from '../contexts/theme.context'
 import Hero from '../components/main.hero'
 import WelcomeSection from '../components/main.welcome'
 import ProductServicesSection from '../components/main.products-and-services'
+import ContactSection from '../components/main.contact'
 
 const StyledMain = styled.div`
     display: flex;
@@ -23,7 +24,7 @@ const Main = () => {
             <Hero theme={theme} />
             <WelcomeSection theme={theme} />
             <ProductServicesSection theme={theme} />
-            {/* <ContactSection theme={theme} /> */}
+            <ContactSection theme={theme} />
         </StyledMain>
     )
 }
