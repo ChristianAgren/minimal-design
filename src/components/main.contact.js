@@ -4,6 +4,12 @@ import { Title, Subtitle } from './text'
 import Menu from './menu'
 import MenuItem from './menu-item'
 
+import Charles from '../resources/charles-ingvar.png'
+import Ragnar from '../resources/ragnar.png'
+import Rocky from '../resources/rocky.png'
+import Harry from '../resources/harry.png'
+import Doris from '../resources/doris.png'
+
 const ContactOverflow = styled.div`
     display: flex;
     justify-content: center;
@@ -45,6 +51,7 @@ const Stickybar = styled.div`
 
 const ContactMenu = styled(Menu)`
     max-width: 64rem;
+    width: calc(100% - 3rem);
 `
 
 const ContactItem = styled(MenuItem)`
@@ -54,7 +61,6 @@ const ContactItem = styled(MenuItem)`
     justify-content: flex-start;
 
     padding-bottom: 0;
-    padding: 0 .5rem;
     height: 10rem;
 
     font-family: 'Open sans', sans-serif;
@@ -67,9 +73,6 @@ const ContactItem = styled(MenuItem)`
         text-align: ${props => props.reverse ? "right" : "left"};
     }
 
-    @media (min-width: 800px) {
-        padding: 0 1rem;
-    };
 `
 
 const ContactInfo = styled.div`
@@ -81,7 +84,7 @@ const ContactInfo = styled.div`
     max-width: 49rem;
     height: calc(100% - 3rem);
     background-color: ${props => props.theme.accentYellow};
-    margin: 1.5rem .5rem;
+    margin: 1.5rem 0;
 
     & > p {
         font-size: 18px;
@@ -106,6 +109,11 @@ const ContactImage = styled.div`
     border-radius: 50%;
     border: 5px solid ${props => props.theme.accentBlue};
     margin: 0 .5rem;
+
+    background-image: url(${props => props.image});
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @media (min-width: 800px) {
         margin: 0 1rem;
@@ -136,35 +144,50 @@ const ContactSection = (props) => {
                     vertical
                 >
                     <ContactItem>
-                        <ContactImage theme={props.theme} />
+                        <ContactImage 
+                            image={Charles}
+                            theme={props.theme} 
+                        />
                         <ContactInfo theme={props.theme}>
                             <Name color={props.theme.titleDark}>Charles-Ingvar Jönsson</Name>
                             <p>Den smarta och välplanerade ledaren för ligan.</p>
                         </ContactInfo>
                     </ContactItem>
                     <ContactItem reverse>
-                        <ContactImage theme={props.theme} />
+                        <ContactImage 
+                            image={Ragnar}
+                            theme={props.theme} 
+                        />
                         <ContactInfo theme={props.theme}>
                             <Name color={props.theme.titleDark}>Ragnar Vanheden</Name>
                             <p>Före detta bilförsäljare klädd i en några nummer för liten kostym.</p>
                         </ContactInfo>
                     </ContactItem>
                     <ContactItem>
-                        <ContactImage theme={props.theme} />
+                        <ContactImage 
+                            image={Rocky}
+                            theme={props.theme} 
+                        />
                         <ContactInfo theme={props.theme}>
                             <Name color={props.theme.titleDark}>Rocky Blom</Name>
                             <p>Finlandssvensk klumpig bov med stor kärlek till sötsaker.</p>
                         </ContactInfo>
                     </ContactItem>
                     <ContactItem reverse>
-                        <ContactImage theme={props.theme} />
+                        <ContactImage 
+                            image={Harry}
+                            theme={props.theme} 
+                        />
                         <ContactInfo theme={props.theme}>
                             <Name color={props.theme.titleDark}>Harry Kruth</Name>
                             <p>Vanhedens kusin. Han är galen i öl och dynamit.</p>
                         </ContactInfo>
                     </ContactItem>
                     <ContactItem>
-                        <ContactImage theme={props.theme} />
+                        <ContactImage 
+                            image={Doris}
+                            theme={props.theme} 
+                        />
                         <ContactInfo theme={props.theme}>
                             <Name color={props.theme.titleDark}>Doris</Name>
                             <p>Harrys flickvän, sedermera fru och ofta en inofficiell "extramedlem".</p>
