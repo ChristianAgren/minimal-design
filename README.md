@@ -1,3 +1,7 @@
+Ett mindre arbete som gick ut på att gå från skiss -> wireframe -> prototyp på bara några dagar.
+Resultatet finns här: https://christianagren.github.io/minimal-design/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
